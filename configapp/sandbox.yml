@@ -12,7 +12,7 @@ spring:
     name: 'configtest'
   config:
     activate:
-      on-profile: default
+      on-profile: sandbox
 
 management:
   endpoint:
