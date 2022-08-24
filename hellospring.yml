@@ -1,21 +1,2 @@
-spring:
-  application:
-    name: 'hellospring'
-  config:
-    activate:
-      on-profile: default
-
 foobar:
   test-string: 'test string from config file in git repo'
-
-management:
-  endpoint:
-    health:
-      show-details: always
-  endpoints:
-    web:
-      exposure:
-        include: '*'
-eureka:
-  client:
-    enabled: false
