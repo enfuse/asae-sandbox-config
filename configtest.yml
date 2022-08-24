@@ -1,5 +1,3 @@
-
-
 name: external app prop
 
 postgres_url: jdbc:postgresql://ip-172-31-26-167.ec2.internal:5432/postgres
