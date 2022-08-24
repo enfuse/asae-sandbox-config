@@ -9,7 +9,7 @@ spring:
   datasource:
     platform: postgres
   application:
-    name: 'configtest'
+    name: 'apptest'
   config:
     activate:
       on-profile: default
