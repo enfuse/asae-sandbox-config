@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: 'newapp'
+  config:
+    activate:
+      on-profile: default
+
+foobar:
+  test-string: 'test string from config file in git repo'
