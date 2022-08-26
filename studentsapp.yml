@@ -12,7 +12,7 @@ spring:
       on-profile: key-vault
   datasource:
     url: jdbc:postgresql://${POSTGRES-SERVER-NAME}:5432/${STUDENTS-DATABASE-NAME}?sslmode=require
-    username: ${POSTGRES-LOGIN-NAME}
+    username: ${POSTGRES-LOGIN-USER}
     password: ${POSTGRES-LOGIN-PASSWORD}
   cloud:
     azure:
