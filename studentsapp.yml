@@ -10,8 +10,10 @@ spring:
   config:
     activate:
       on-profile: key-vault
-  database:
-    driverClassName: org.postgresql.Driver
+  datasource:
+    url: jdbc:postgresql://${POSTGRES-SERVER-NAME}:5432/${STUDENTS-DATABASE-NAME}?sslmode=require
+    username: ${POSTGRES-LOGIN-NAME}
+    password: ${POSTGRES-LOGIN-PASSWORD}
   cloud:
     azure:
       keyvault:
